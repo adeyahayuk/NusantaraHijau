@@ -111,7 +111,7 @@ nusantarahijau/
 
 | Nama | NIM | Modul yang Dikerjakan |
 |------|-----|-----------------------|
-| `Muhammad Azhar` | `H1D025086` | `2, 5, 7` |
+| `Muhammad Azhar Qaidusshidqi` | `H1D025086` | `2, 5, 7` |
 | `Ade Yahya Hendriawan` | `H1D025090` | `6, 8, 9` |
 | `Panji Dwi Putra Herdyanto` | `H1D025164` | `1, 3, 4` |
 
