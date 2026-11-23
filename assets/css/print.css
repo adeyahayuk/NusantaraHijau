@@ -1,0 +1,58 @@
+/* ========================================================
+   NUSANTARAHIJAU PRINT STYLESHEET (INVOICE & STRUK RESMI)
+   ======================================================== */
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar,
+  .breadcrumb-bar,
+  .flow-header,
+  .help-banner,
+  .site-footer,
+  .receipt-action-buttons,
+  .btn-print-receipt,
+  .btn-share-receipt,
+  .btn-back-link,
+  .campaign-summary-card,
+  .admin-sidebar,
+  .admin-topbar,
+  .modal-overlay {
+    display: none !important;
+  }
+
+  .donation-layout {
+    display: block !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .receipt-paper {
+    border: 1px solid #999 !important;
+    box-shadow: none !important;
+    padding: 20px !important;
+    margin: 0 !important;
+    width: 100% !important;
+    page-break-inside: avoid;
+  }
+
+  .receipt-stamp {
+    border: 2px dashed #16a34a !important;
+    color: #16a34a !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .receipt-table th {
+    background-color: #f1f5f9 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

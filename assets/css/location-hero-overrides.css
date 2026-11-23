@@ -1,0 +1,41 @@
+/* Wikimedia Commons photo credits and licenses:
+  De Djawatan: Jeremyyohanes2, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:De_Djawatan_Benculuk_Forest,_Banyuwangi.jpg
+  Mount Bromo: Rakhaguevara, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Mount_of_bromo_2024.jpg
+  Wae Rebo: Jakub Halun, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Wae_Rebo_village,_Flores_Island,_Indonesia,_20250824_0753_3029.jpg
+  Lake Toba: Bisajunisa, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Lake_Toba_and_the_surrounding_hills.jpg */
+body.campaign-hero-page .navbar-demo,
+body.volunteer-hero-page .navbar-demo,
+body.education-hero-page .navbar-demo,
+body.faq-hero-page .navbar-demo{width:100%;margin:0}
+
+body.campaign-hero-page .rc-hero,
+body.volunteer-hero-page .demo-hero,
+body.education-hero-page .demo-hero,
+body.faq-hero-page .rf-hero{min-height:381px;border-bottom:0;background-color:#163b4b;background-size:cover;background-repeat:no-repeat}
+
+body.campaign-hero-page .rc-hero{display:flex;align-items:center;padding:56px 20px;background-image:linear-gradient(180deg,rgba(8,24,38,.44) 0%,rgba(8,24,38,.18) 58%,rgba(248,250,252,.90) 100%),linear-gradient(90deg,rgba(5,24,39,.62) 0%,rgba(5,24,39,.08) 100%),url('../img/hero-de-djawatan.jpg');background-position:center,center,center 50%}
+body.campaign-hero-page .rc-hero .rc-container{width:100%;max-width:1240px}
+body.campaign-hero-page .rc-hero h1{max-width:760px;margin:0 0 16px;font-size:44px;font-weight:800;line-height:1.12;color:#fff}
+body.campaign-hero-page .rc-hero h1 span{color:#7df45e}
+body.campaign-hero-page .rc-hero p{color:rgba(255,255,255,.92)}
+
+body.volunteer-hero-page .demo-hero{background-image:linear-gradient(180deg,rgba(8,24,38,.44) 0%,rgba(8,24,38,.18) 58%,rgba(248,250,252,.90) 100%),linear-gradient(90deg,rgba(5,24,39,.62) 0%,rgba(5,24,39,.08) 100%),url('../img/hero-gunung-bromo.jpg');background-position:center,center,center 48%}
+body.volunteer-hero-page .demo-hero-inner{height:381px;min-height:381px;align-items:center}
+body.volunteer-hero-page .demo-hero h1,
+body.education-hero-page .demo-hero h1{color:#fff}
+body.volunteer-hero-page .demo-hero h1 span,
+body.education-hero-page .demo-hero h1 span{color:#7df45e}
+body.volunteer-hero-page .demo-hero .demo-lead,
+body.education-hero-page .demo-hero .demo-lead{color:rgba(255,255,255,.92)}
+
+body.education-hero-page .demo-hero{display:flex;align-items:center;background-image:linear-gradient(180deg,rgba(8,24,38,.46) 0%,rgba(8,24,38,.20) 58%,rgba(248,250,252,.90) 100%),linear-gradient(90deg,rgba(5,24,39,.66) 0%,rgba(5,24,39,.10) 100%),url('../img/hero-wae-rebo.jpg');background-position:center,center,center 48%}
+body.education-hero-page .demo-hero>.demo-container{width:100%}
+
+body.faq-hero-page .rf-hero{display:flex;flex-direction:column;justify-content:center;padding:50px 20px;background-image:linear-gradient(180deg,rgba(8,24,38,.48) 0%,rgba(8,24,38,.20) 58%,rgba(248,250,252,.90) 100%),linear-gradient(90deg,rgba(5,24,39,.50) 0%,rgba(5,24,39,.08) 100%),url('../img/hero-danau-toba.jpg');background-position:center,center,center 48%}
+body.faq-hero-page .rf-hero h1{color:#fff}
+body.faq-hero-page .rf-hero p,
+body.faq-hero-page .rf-tags{color:rgba(255,255,255,.92)}
+
+@media(max-width:900px){
+  body.volunteer-hero-page .demo-hero-inner{height:auto;min-height:381px;padding-top:38px;padding-bottom:38px}
+}
