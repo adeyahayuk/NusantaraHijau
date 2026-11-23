@@ -14,7 +14,6 @@ Indonesia adalah negara kepulauan dengan kekayaan ekosistem laut dan darat yang 
 
 **Tujuan proyek:**
 - Menyediakan wadah donasi yang terverifikasi untuk isu ekosistem laut dan darat.
-- Mengurangi risiko penyalahgunaan dana dengan model **dana ditahan dan disalurkan langsung oleh pihak NusantaraHijau**, dibantu penggalang dana (contributor).
 - Meningkatkan kesadaran masyarakat melalui konten edukasi dan membuka peluang keterlibatan sebagai relawan.
 
 ## 🌍 Keterkaitan dengan SDGs
@@ -36,7 +35,7 @@ Indonesia adalah negara kepulauan dengan kekayaan ekosistem laut dan darat yang 
 
 1. **Landing Page (Beranda)**: halaman utama berisi ringkasan platform, kampanye unggulan, dan ajakan berdonasi.
 2. **Kampanye**: daftar dan detail kampanye penggalangan dana beserta progres dana terkumpul.
-3. **Edukasi Ekosistem**: artikel edukasi seputar ekosistem laut dan darat (SDGs 14 dan 15) yang dikelola pihak NusantaraHijau.
+3. **Artikel Edukasi**: artikel edukasi seputar ekosistem laut dan darat (SDGs 14 dan 15) yang dikelola pihak NusantaraHijau.
 4. **Aksi Relawan**: formulir pendaftaran relawan, lalu diarahkan ke grup koordinasi.
 5. **Pusat Bantuan dan FAQ**: pertanyaan umum dan bantuan penggunaan platform.
 6. **Pembayaran Donasi**: alur donasi simulasi dengan instruksi pembayaran/QR, status berhasil, dan unduh invoice.
@@ -64,11 +63,11 @@ Indonesia adalah negara kepulauan dengan kekayaan ekosistem laut dan darat yang 
 1. **Clone repository** ke folder `htdocs` XAMPP:
    ```bash
    cd C:/xampp/htdocs
-   git clone https://github.com/<username>/<nama-repository>.git nusantarahijau
+   git clone https://github.com/adeyahayuk/NusantaraHijau.git
    ```
 2. **Jalankan XAMPP** lalu aktifkan modul **Apache** dan **MySQL**.
 3. **Buat database**: buka `http://localhost/phpmyadmin`, buat database baru bernama `nusantarahijau`.
-4. **Impor database**: pilih database tersebut, menu **Import**, lalu pilih berkas `database/nusantarahijau.sql`.
+4. **Impor database**: pilih database tersebut, menu **Import**, lalu pilih berkas `database.sql`.
 5. **Atur koneksi database** pada berkas konfigurasi (sesuaikan nama berkas dengan proyek Anda, misalnya `config/koneksi.php`):
    ```php
    $host = "localhost";
@@ -103,7 +102,6 @@ Indonesia adalah negara kepulauan dengan kekayaan ekosistem laut dan darat yang 
 nusantarahijau/
 ├── assets/          # CSS, JavaScript, gambar
 ├── config/          # Konfigurasi koneksi database
-├── database/        # Berkas SQL
 ├── admin/           # Halaman dashboard admin
 ├── includes/        # Komponen bersama (navbar, footer)
 └── index.php        # Halaman beranda
@@ -113,9 +111,9 @@ nusantarahijau/
 
 | Nama | NIM | Modul yang Dikerjakan |
 |------|-----|-----------------------|
-| `<Nama Anggota 1>` | `<NIM>` | `<modul>` |
-| `<Nama Anggota 2>` | `<NIM>` | `<modul>` |
-| `<Nama Anggota 3>` | `<NIM>` | `<modul>` |
+| `Muhammad Azhar` | `H1D025086` | `2, 5, 7` |
+| `Ade Yahya Hendriawan` | `H1D025090` | `6, 8, 9` |
+| `Panji Dwi Putra Herdyanto` | `H1D025164` | `1, 3, 4` |
 
 ## 🔗 Tautan Proyek
 
@@ -124,4 +122,4 @@ nusantarahijau/
 
 ---
 
-Dibuat dengan 💚 untuk Praktikum Pemrograman Web I, Jurusan Informatika, Universitas Jenderal Soedirman, 2026.
+Dibuat untuk Praktikum Pemrograman Web I, Jurusan Informatika, Universitas Jenderal Soedirman, 2026.
