@@ -83,16 +83,6 @@ Indonesia adalah negara kepulauan dengan kekayaan ekosistem laut dan darat yang 
    ```
    http://localhost/nusantarahijau
    ```
-3. Untuk masuk ke dashboard admin, gunakan akun admin di bawah ini melalui halaman login.
-
-## 🔑 Akun Admin (Demo)
-
-| Field | Nilai |
-|-------|-------|
-| Email | `admin@nusantarahijau.org` |
-| Password | `admin123` |
-
-> 🔒 Akun ini hanya untuk keperluan demo dan penilaian tugas. Jangan gunakan kredensial ini jika aplikasi dipakai di lingkungan produksi.
 
 ## 🗂️ Struktur Folder
 
@@ -105,6 +95,7 @@ nusantarahijau/
 ├── admin/           # Halaman dashboard admin
 ├── includes/        # Komponen bersama (navbar, footer)
 └── index.php        # Halaman beranda
+└── ....
 ```
 
 ## 👨‍💻 Tim Pengembang
