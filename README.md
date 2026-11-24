@@ -108,8 +108,8 @@ nusantarahijau/
 
 ## 🔗 Tautan Proyek
 
-- 🎥 Video Presentasi: `https://youtu.be/zducYwF7Rso`
-- 🖼️ Project Showcase: `https://www.instagram.com/p/DgGwQgikfNCVFGkeHRNY1zwNx3AJQU51lB58z00/?evlk=c3d4anRtNHhtZG4y`
+- 🎥 Video Presentasi: https://youtu.be/zducYwF7Rso
+- 🖼️ Project Showcase: https://www.instagram.com/p/DgGwQgikfNCVFGkeHRNY1zwNx3AJQU51lB58z00/?evlk=c3d4anRtNHhtZG4y
 
 ---
 
