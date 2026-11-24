@@ -54,7 +54,7 @@ Indonesia adalah negara kepulauan dengan kekayaan ekosistem laut dan darat yang 
 ## ⚙️ Panduan Instalasi dan Konfigurasi
 
 ### Prasyarat
-- [XAMPP](https://www.apachefriends.org/) (Apache, PHP 8.x, dan MySQL/MariaDB)
+- [XAMPP](https://www.apachefriends.org/) (Apache, PHP 8.2.12, dan MySQL)
 - Git
 - Browser modern
 
@@ -66,14 +66,14 @@ Indonesia adalah negara kepulauan dengan kekayaan ekosistem laut dan darat yang 
    git clone https://github.com/adeyahayuk/NusantaraHijau.git
    ```
 2. **Jalankan XAMPP** lalu aktifkan modul **Apache** dan **MySQL**.
-3. **Buat database**: buka `http://localhost/phpmyadmin`, buat database baru bernama `nusantarahijau`.
+3. **Buat database**: buka `http://localhost/phpmyadmin`, buat database baru bernama `nusantara_hijau`.
 4. **Impor database**: pilih database tersebut, menu **Import**, lalu pilih berkas `database.sql`.
 5. **Atur koneksi database** pada berkas konfigurasi (sesuaikan nama berkas dengan proyek Anda, misalnya `config/koneksi.php`):
    ```php
    $host = "localhost";
    $user = "root";
    $pass = "";
-   $db   = "nusantarahijau";
+   $db   = "nusantara_hijau";
    ```
 
 ## ▶️ Panduan Menjalankan Aplikasi
@@ -108,8 +108,8 @@ nusantarahijau/
 
 ## 🔗 Tautan Proyek
 
-- 🎥 Video Presentasi: `<link YouTube>`
-- 🖼️ Project Showcase: `<link media sosial>`
+- 🎥 Video Presentasi: `https://youtu.be/zducYwF7Rso`
+- 🖼️ Project Showcase: `https://www.instagram.com/p/DgGwQgikfNCVFGkeHRNY1zwNx3AJQU51lB58z00/?evlk=c3d4anRtNHhtZG4y`
 
 ---
 
